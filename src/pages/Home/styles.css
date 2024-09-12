@@ -1,0 +1,10 @@
+.home-page{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;    
+
+    }
+.home-page span{
+    text-align: center;
+}
