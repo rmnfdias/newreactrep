@@ -1,33 +1,33 @@
-.cabecalho{
-        background-color: rgb(88, 29, 199);
-        color: white;
-        padding: 15px;
-        text-align: center;
+.cabecalho {
+    background-color: rgb(88, 29, 199);
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
 
-.cabecalho ol{
+.cabecalho ol {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    
+
 }
 
-.cabecalho ol a{
+.cabecalho ol a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    width: 120%;
+    width: 100%;
 
 }
 
-.cabecalho ol a:hover{
+.cabecalho ol a:hover {
     background-color: rgb(173, 76, 238);
-        
+
 }
 
-.cabecalho ol li{
+.cabecalho ol li {
     padding: 10px;
-    width: 120%;
+    width: 100%;
 }

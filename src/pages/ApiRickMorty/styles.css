@@ -1,0 +1,39 @@
+.list-api {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.paginator {
+    max-width: 100%;
+    min-width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0px;
+}
+
+.paginator p {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(207, 160, 239);
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.paginator p:hover {
+    background-color: rgb(173, 76, 238) !important;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.active {
+    background-color: rgb(173, 76, 238) !important;
+    font-weight: bold;
+}
